@@ -15,10 +15,37 @@ POST /users
 Qualquer um desses 3 endpoints irá cadastrar o usuário na lista de "Users", sendo que os campos obrigatórios são os de email e password.
 Você pode ficar a vontade para adicionar qualquer outra propriedade no corpo do cadastro dos usuários.
 
-
 ### Login
 
 POST /login <br/>
 POST /signin
 
 Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usuários cadastrados na lista de "Users"
+
+## Animals
+
+POST/animals <br/>
+GET/animals
+
+Use o post para cadastrar um novo animal, precisa estar logado para cadastrar.
+Ex: {
+"type": "dog",
+"name": "Simba",
+"userId": 3,
+}
+
+Use o get para verificar os seus animais cadastrados, precisa estar logado para visualizar.
+
+## Hobbie
+
+POST/hobbies <br/>
+GET/hobbies
+
+Use o post para cadastrar um novo hobby, precisa estar logado para cadastrar.
+Ex: {
+"type": "reading",
+"hoursSpent": 2,
+"userId": 3,
+}
+
+Use o get para verificar os seus animais cadastrados, não é necessário estar logado.

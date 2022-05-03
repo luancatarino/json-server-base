@@ -6,6 +6,48 @@
       "name": "Kenzinho",
       "age": 38,
       "id": 1
+    },
+    {
+      "email": "apache@gmail.com",
+      "password": "$2a$10$YbcWoygkh7kDNFT9cMao2OJkENSS83TnqZlG8N1wxtev3nSwfbzZi",
+      "name": "Apache",
+      "age": 1,
+      "id": 2
+    },
+    {
+      "email": "luan@gmail.com",
+      "password": "$2a$10$HKKMei0yvMTlg2vLX8yDYeJTNDrvDIDQ1sHmgkQIM2fTUUdCb4HDO",
+      "name": "Luan",
+      "age": 31,
+      "id": 3
+    }
+  ],
+  "animals": [
+    {
+      "type": "dog",
+      "name": "Simba",
+      "userId": 3,
+      "id": 1
+    },
+    {
+      "type": "dog",
+      "name": "Apache",
+      "userId": 3,
+      "id": 2
+    }
+  ],
+  "hobbies": [
+    {
+      "type": "reading",
+      "hoursSpent": 2,
+      "userId": 3,
+      "id": 1
+    },
+    {
+      "type": "workout",
+      "hoursSpent": 1,
+      "userId": 3,
+      "id": 2
     }
   ]
 }
